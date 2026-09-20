@@ -23,7 +23,7 @@
 - **Frontend**: React + TypeScript + Vite
 - **Backend**: FastAPI (Python)
 - **Database**: PostgreSQL
-- **패키지 관리**: pnpm (frontend), uv (backend)
+- **패키지 관리**: npm (frontend), pip (backend)
 
 ## 프로젝트 구조
 
@@ -73,13 +73,13 @@ cd dapzy
 
 # 백엔드
 cd backend
-uv sync
-uv run uvicorn app.main:app --reload
+pip install -r requirements.txt
+uvicorn app.main:app --reload
 
 # 프론트엔드 (새 터미널)
 cd frontend
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 ## 기여하기

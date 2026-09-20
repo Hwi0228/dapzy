@@ -4,9 +4,9 @@
 
 ### 필요 도구
 - Node.js 20+
-- pnpm
+- npm
 - Python 3.11+
-- uv
+- pip
 - Docker & Docker Compose (선택)
 
 ## 브랜치 전략
